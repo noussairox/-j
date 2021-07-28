@@ -1,0 +1,45 @@
+body {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 14px;
+}
+#container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+}
+.single {
+  margin: 20px;
+  padding: 20px;
+}
+
+a h4 {
+  list-style: none;
+  color: orange;
+  align-items: center;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+a h4:hover {
+  color: burlywood;
+  text-decoration: double;
+}
+
+img:hover {
+  transition: all 0.8s ease;
+  height: 400px;
+  width: 400px;
+}
+
+.dropdown-menu {
+  height: 30px;
+  width: 140px;
+}
